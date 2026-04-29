@@ -1,0 +1,33 @@
+{
+  "name": "cp949-react-highlight-words-workspace",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cp949/react-highlight-words.git"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "check-types": "turbo run check-types",
+    "test": "pnpm --filter @cp949/react-highlight-words test:run",
+    "release:check": "pnpm lint && pnpm check-types && pnpm test && pnpm build && pnpm --filter @cp949/react-highlight-words pack:dry-run",
+    "publish:npm": "pnpm --filter @cp949/react-highlight-words publish:npm"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.13",
+    "turbo": "^2.9.6",
+    "typescript": "6.0.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss": "8.5.12"
+    }
+  },
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
