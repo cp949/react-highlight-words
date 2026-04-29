@@ -58,7 +58,7 @@ pnpm build
 
 ## 라이브러리 사용
 
-자세한 사용법은 [packages/react-highlight-words/README.md](./packages/react-highlight-words/README.md) 를 참고하세요.
+컴포넌트, 훅, 마킹 스타일 변경 예제는 [packages/react-highlight-words/README.md](./packages/react-highlight-words/README.md) 에서 확인할 수 있습니다.
 
 ## 배포
 
