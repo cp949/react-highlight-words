@@ -54,7 +54,10 @@ pnpm --filter @cp949/react-highlight-words test:run
 pnpm --filter @cp949/react-highlight-words check-types
 pnpm lint:fix
 pnpm build
+pnpm audit
 ```
+
+2026-04-30 기준 `pnpm audit` 결과 알려진 취약점이 0건임을 확인했습니다.
 
 ## 라이브러리 사용
 
