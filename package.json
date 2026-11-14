@@ -21,11 +21,6 @@
     "turbo": "^2.9.6",
     "typescript": "6.0.3"
   },
-  "pnpm": {
-    "overrides": {
-      "postcss": "8.5.12"
-    }
-  },
   "packageManager": "pnpm@10.33.2",
   "engines": {
     "node": ">=20.19.0"
