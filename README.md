@@ -29,10 +29,10 @@ GitHub: <https://github.com/cp949/react-highlight-words.git>
 pnpm install
 pnpm dev          # 데모 앱 개발 서버 + 라이브러리 watch
 pnpm build        # 모든 워크스페이스 빌드
-pnpm lint:fix     # biome 린트 + 포맷 자동 수정/체크
+pnpm lint:fix     # oxlint 자동 수정 + oxfmt 포맷 적용
 pnpm check-types  # 전체 워크스페이스 tsc --noEmit
 pnpm --filter @cp949/react-highlight-words test:run  # 라이브러리 테스트 실행
-pnpm format       # biome 포맷 적용
+pnpm format       # oxfmt 포맷 적용
 pnpm release:check # lint/type/test/build/npm pack dry-run
 ```
 

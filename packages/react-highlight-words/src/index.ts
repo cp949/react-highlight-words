@@ -1,10 +1,5 @@
 export { Highlighter } from "./components/Highlighter";
-export {
-  combineChunks,
-  fillInChunks,
-  findAll,
-  findChunks,
-} from "./core";
+export { combineChunks, fillInChunks, findAll, findChunks } from "./core";
 export { useHighlightChunks } from "./hooks/useHighlightChunks";
 
 export type {

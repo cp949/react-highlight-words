@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "oxc", "react"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    // Highlighter의 chunks.map 안에서 지역 변수 matchIndex를 갱신한다.
+    // map은 동기 실행이라 안전하지만 이 규칙은 클로저 내 재할당을 모두 오류로 본다.
+    "react/immutability": "off"
+  },
+  "env": {
+    "builtin": true
+  },
+  "ignorePatterns": ["**/.next", "**/.turbo", "**/dist", "**/node_modules"]
+}
