@@ -47,7 +47,7 @@ describe("하이라이터 렌더링", () => {
 
     expect(cot).toHaveClass("highlight");
     expect(cot).toHaveClass("active");
-    expect(cot).toHaveStyle({ color: "rgb(255, 0, 0)", fontWeight: "bold" });
+    expect(cot).toHaveStyle({ color: "rgb(255, 0, 0)", fontWeight: "700" });
   });
 
   test("문자열 DOM 태그에는 custom highlight prop을 전달하지 않는다", () => {

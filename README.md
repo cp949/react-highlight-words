@@ -20,7 +20,7 @@ GitHub: <https://github.com/cp949/react-highlight-words.git>
 
 ## 요구 사항
 
-- Node.js `>=20.19.0`
+- Node.js `>=22.22.2`
 - pnpm `10.33.2`
 
 ## 스크립트
